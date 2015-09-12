@@ -14,11 +14,11 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			
+			System.out.println(">>>>>>" );
 			Button btn = new Button();
 			btn.setText("Click Me ...");
 			btn.setOnAction(new EventHandler<ActionEvent>() {
-				
+		
 				@Override
 				public void handle(ActionEvent event) {
 					// TODO Auto-generated method stub
